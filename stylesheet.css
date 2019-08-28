@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("blurry.jpg");
+    background-size: cover;
+    position: relative;
+    height: 100%;
+}
+
+.underconstruction {
+    margin-top: 90px;
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 130px;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+    font-weight: 200px;
+}
+
+h2 {
+    font-size: 20px;
+    width: 100%;
+    margin: -10px auto;
+    text-align: center;
+    color: white;
+    font-family: Optima;
+    font-weight: 100px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.firstbutton{
+    height: 50px;
+    width: 190px;
+    margin: 0 auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+    font-weight: 700px;
+    font-size: 25px;
+    border-radius: 5px;
+    background-color: #D0F0C0;
+    border: none;
+    color: #7C8B95;
+}
+
+
+.icons {
+    display: block;
+    text-align: center;
+    margin-top: 40px;
+}
+
+img {
+    width: 60px;
+    margin: 20px 20px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    width: 100%;
+    font-family: Optima;
+    margin-top: 20px;
+}
