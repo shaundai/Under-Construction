@@ -66,6 +66,59 @@ img {
     margin: 20px 20px;
 }
 
+.drawer{
+    position: fixed;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    left: auto;
+    width: 23rem;
+    background-color: #D0F0C0;
+    color: white;
+    text-align: center;
+    font-family: Optima;
+    padding: 3rem;
+}
+
+.signup {
+    height: 40px;
+    width: 150px;
+    margin: 0 auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+    font-weight: 700px;
+    font-size: 25px;
+    border-radius: 5px;
+    background-color: #7C8B95;
+    border: 1px 606060;
+    color: white;
+    box-shadow: 1px 1px 2px 2px gray;
+}
+
+h3 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+    font-size: 36px;
+}
+
+p {
+    font-size: 18px;
+}
+
+form {
+    padding-top: 30px;
+    display: flex;
+}
+
+input {
+    height: 40px;
+    width: 150px;
+    padding: 0px 10px;
+    font-family: Optima;
+    font-size: 16px;
+    color: gray;
+    border-radius: 5px;
+    float: right;
+}
+
 footer {
     color: white;
     text-align: center;
@@ -73,3 +126,9 @@ footer {
     font-family: Optima;
     margin-top: 20px;
 }
+
+@keyframes slidein-left {
+    from {
+      transform: translateX(26rem); }
+    to {
+      transform: translateX(0); } }
