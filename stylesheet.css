@@ -129,6 +129,21 @@ footer {
 
 @keyframes slidein-left {
     from {
-      transform: translateX(26rem); }
-    to {
-      transform: translateX(0); } }
+        transform: translateX(0); }
+      to {
+        transform: translateX(26rem); } }
+
+@keyframes slideout-right {
+    from {
+        transform: translateX(26rem); }
+      to {
+        transform: translateX(0); } }
+  
+
+.turnUp {
+    animation: slidein-left 2s;
+}
+
+.turnDown {
+    animation: slideout-right 2s;
+}
