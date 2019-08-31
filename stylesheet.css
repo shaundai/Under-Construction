@@ -10,6 +10,14 @@ body {
     height: 100%;
 }
 
+#page{
+    opacity:0.6;
+    background-color: black;
+    display:none;
+    position:fixed;
+    top:0px; right:0px; bottom:0px; left:0px;
+  }
+
 .underconstruction {
     margin-top: 90px;
     margin-bottom: 30px;
@@ -33,6 +41,49 @@ h2 {
     color: white;
     font-family: Optima;
     font-weight: 100px;
+}
+
+.progressbarcontainer {
+    display: grid;
+    grid-template-areas: 'progress progress' 'percentage1 percentage2';
+    height: 60px;
+    width: 100%;
+    justify-content: center;
+}
+
+.progress {
+    grid-area: progress;
+    content: "";
+    background-color: #dddddd;
+    height: 15px;
+    width: 18rem;
+    display: block;
+    margin-top: 25px;
+}
+
+.progressline {
+    grid-area: progress;
+    content: "";
+    background-color: #D0F0C0;
+    height: 100%;
+    width: 75%;
+    display: block;
+    animation: 3s slideInFromLeft 0s 1;
+}
+
+.percentage1 {
+    grid-area: percentage1;
+    color: white;
+    font-family: Optima;
+    font-size: 15px;
+}
+
+.percentage2 {
+    grid-area: percentage2;
+    color: white;
+    font-family: Optima;
+    justify-self: right;
+    font-size: 15px;
 }
 
 .buttons {
@@ -78,6 +129,8 @@ img {
     text-align: center;
     font-family: Optima;
     padding: 3rem;
+    transform: translateX(130%);
+    padding-top: 120px;
 }
 
 .signup {
@@ -92,6 +145,16 @@ img {
     border: 1px 606060;
     color: white;
     box-shadow: 1px 1px 2px 2px gray;
+}
+
+.goaway {
+    color: black;
+    font-size: 25px;
+    position: fixed;
+    top: 18px;
+    right: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
 }
 
 h3 {
@@ -129,21 +192,19 @@ footer {
 
 @keyframes slidein-left {
     from {
-        transform: translateX(0); }
-      to {
-        transform: translateX(26rem); } }
+        transform: translateX(130%); }
+    to {
+        transform: translateX(0); } }
 
 @keyframes slideout-right {
     from {
-        transform: translateX(26rem); }
-      to {
-        transform: translateX(0); } }
-  
+        transform: translateX(0); }
+    to {
+        transform: translateX(130%); } }
 
-.turnUp {
-    animation: slidein-left 2s;
-}
-
-.turnDown {
-    animation: slideout-right 2s;
-}
+@keyframes slideInFromLeft {
+    from {
+     width: 0%; }
+    to {
+     width: 75%; }}
+        

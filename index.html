@@ -7,14 +7,24 @@
         <link rel="shortcut icon" type="image/png" href="favicon.ico"/>
     </head>
     <body>
+        <div id="page"></div>
+        <container>
         <div class="underconstruction">
-        <h1>UNDER</h1>
-        <h1>CONSTRUCTION</h1>
-        <h2>...gimme a few weeks, please</h2>
+            <h1>UNDER</h1>
+            <h1>CONSTRUCTION</h1>
+            <h2>...gimme a few weeks, please</h2>
+        </div>
+        
+        <div class="progressbarcontainer">
+          <div class="progress" id="progress">
+              <div class="progressline" id="progressline"></div>
+          </div>
+          <div class="percentage1">0%</div>
+          <div class="percentage2">100%</div>
         </div>
 
         <div class="buttons">
-            <button class="firstbutton" id=>Notify me</button>
+            <button class="firstbutton" id="firstbutton">Notify me</button>
         </div>
 
         <div class="icons">
@@ -24,16 +34,17 @@
             <a href="https://www.instagram.com/shaundai"><img src="instagram.png"></a>
             <a href="mailto:shaundaiperson@gmail.com"><img src="email.png"></a>
         </div>
-
-        <div class="drawer" id="drawer">
-            <h3>BE THE FIRST TO KNOW WHEN WE GO LIVE</h3>
-            <p>SIGN UP AND GET NOTIFIED</p>
-            <form>
-                <input type="text" method="get" name="email" placeholder="Your email address...">
-                <button class="signup" type="submit" id="signup">Sign Up</button>
-            </form>
-        </div>
     <footer>&copy; 2019 Shaundai E Person</footer>
+</container>
+<div class="drawer" id="drawer">
+        <span class="goaway" id="goaway">X</span>
+        <h3>BE THE FIRST TO KNOW WHEN WE GO LIVE</h3>
+        <p>SIGN UP AND GET NOTIFIED</p>
+        <form>
+            <input type="text" method="get" name="email" placeholder="Your email address...">
+            <button class="signup" type="submit" id="signup">Sign Up</button>
+        </form>
+    </div>
     </body>
     <script type="text/javascript" src="script.js"></script>
 </html>
