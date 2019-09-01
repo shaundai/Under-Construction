@@ -26,20 +26,21 @@ body {
 h1 {
     font-size: 130px;
     width: 100%;
-    margin: 0 auto;
+    margin: -30px auto;
+    padding: 0 auto;
     text-align: center;
     color: white;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+    font-family: Anton;
     font-weight: 200px;
 }
 
 h2 {
     font-size: 20px;
     width: 100%;
-    margin: -10px auto;
+    margin: -30px auto;
     text-align: center;
     color: white;
-    font-family: Optima;
+    font-family: Slabo;
     font-weight: 100px;
 }
 
@@ -74,14 +75,14 @@ h2 {
 .percentage1 {
     grid-area: percentage1;
     color: white;
-    font-family: Optima;
+    font-family: 'Times New Roman', Times, serif;
     font-size: 15px;
 }
 
 .percentage2 {
     grid-area: percentage2;
     color: white;
-    font-family: Optima;
+    font-family: 'Times New Roman', Times, serif;
     justify-self: right;
     font-size: 15px;
 }
@@ -96,7 +97,7 @@ h2 {
     height: 50px;
     width: 190px;
     margin: 0 auto;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+    font-family: Anton;
     font-weight: 700px;
     font-size: 25px;
     border-radius: 5px;
@@ -127,7 +128,7 @@ img {
     background-color: #D0F0C0;
     color: white;
     text-align: center;
-    font-family: Optima;
+    font-family: Anton;
     padding: 3rem;
     transform: translateX(130%);
     padding-top: 120px;
@@ -137,7 +138,7 @@ img {
     height: 40px;
     width: 150px;
     margin: 0 auto;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+    font-family: Anton;
     font-weight: 700px;
     font-size: 25px;
     border-radius: 5px;
@@ -153,17 +154,18 @@ img {
     position: fixed;
     top: 18px;
     right: 30px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Poppins;
     font-weight: 200;
 }
 
 h3 {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+    font-family: Anton;
     font-size: 36px;
 }
 
 p {
     font-size: 18px;
+    font-family: Slabo;
 }
 
 form {
@@ -175,7 +177,7 @@ input {
     height: 40px;
     width: 150px;
     padding: 0px 10px;
-    font-family: Optima;
+    font-family: Slabo;
     font-size: 16px;
     color: gray;
     border-radius: 5px;
@@ -186,8 +188,9 @@ footer {
     color: white;
     text-align: center;
     width: 100%;
-    font-family: Optima;
+    font-family: Slabo;
     margin-top: 20px;
+    padding-bottom: 20px;
 }
 
 @keyframes slidein-left {
