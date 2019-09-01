@@ -207,4 +207,22 @@ footer {
      width: 0%; }
     to {
      width: 75%; }}
-        
+
+@media only screen and (min-width: 414px) and (max-width: 780px){
+    body {
+    margin: auto 0;
+    background-size: auto;
+      };
+    
+    container {
+        margin: auto 0;
+    }
+    
+    .underconstruction {
+        margin-top: 180px;
+    }
+
+    footer {
+        margin-bottom: 180px;
+    
+}}
