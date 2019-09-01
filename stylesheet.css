@@ -7,7 +7,6 @@ body{
     background-image: url("blurry.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
-    align-items: center;
 }
 
 #page{
@@ -213,16 +212,9 @@ footer {
 
 @media only screen and (min-width: 414px) and (max-width: 767px){
     
-    container {
-        margin: auto 0;
-    }
-    
     .underconstruction {
         margin-top: 180px;
     }
-
-    footer {
-        margin-bottom: 180px;
     
 }}
 
