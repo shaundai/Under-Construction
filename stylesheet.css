@@ -216,6 +216,7 @@ footer {
     margin: auto 0;
     background-size: auto;
     height: auto;
+    background-attachment: initial;
       };
     
     container {
