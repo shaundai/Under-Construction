@@ -3,12 +3,10 @@
     padding: 0;
 }
 
-body {
+body{
     background-image: url("blurry.jpg");
-    background-size: cover;
-    position: relative;
-    height: 100%;
     background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 #page{
@@ -212,13 +210,7 @@ footer {
     to {
      width: 75%; }}
 
-@media only screen and (min-width: 414px) and (max-width: 780px){
-    body {
-    margin: auto 0;
-    background-size: auto;
-    height: auto;
-    background-attachment: initial;
-      };
+@media only screen and (min-width: 414px) and (max-width: 767px){
     
     container {
         margin: auto 0;
@@ -232,3 +224,12 @@ footer {
         margin-bottom: 180px;
     
 }}
+
+@media only screen and (min-width: 768px){
+    body {
+        background-image: url("blurry.jpg");
+        background-size: cover;
+        position: relative;
+        height: 100%;
+    }    
+}
