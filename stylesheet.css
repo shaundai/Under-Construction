@@ -7,6 +7,7 @@ body{
     background-image: url("blurry.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
+    align-content: center;
 }
 
 #page{
