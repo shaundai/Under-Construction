@@ -8,6 +8,7 @@ body {
     background-size: cover;
     position: relative;
     height: 100%;
+    background-attachment: fixed;
 }
 
 #page{
