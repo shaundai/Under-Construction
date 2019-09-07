@@ -2,7 +2,6 @@ let drawer = document.getElementById('drawer');
 let notifyButton = document.getElementById('firstbutton');
 let page = document.getElementById('page');
 let goAway = document.getElementById('goaway');
-let progressBar = document.getElementById('progress');
 let isOpen = false;
 
 let openDrawer = function() {
