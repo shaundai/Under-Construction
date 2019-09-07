@@ -9,7 +9,6 @@ let openDrawer = function() {
     if (isOpen === false){
     drawer.style.animation = 'slidein-left 1s'
     };
-    drawer.focus();
     isOpen = true;
     drawer.style.transform = 'translateX(0)';
     page.style.display = "block";
